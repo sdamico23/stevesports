@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="img/damicoDevLogo5.PNG">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>D'Amico Dev</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="/bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+  </head>
+  <router-outlet></router-outlet>
+   <!-- Navigation-->
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"> <img src="img/damicoDevLogo5.PNG" /> </a>
+  <!-- hamburger button -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarResponsive"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item nav-li">
+          <a routerLink="/login" routerLinkActive="active" class="nav-link">Login</a>
+        </li>
+        <li class="nav-item nav-li">
+          <a routerLink="/register" routerLinkActive="active" class="nav-link">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
